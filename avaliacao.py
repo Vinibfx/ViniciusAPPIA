@@ -129,7 +129,7 @@ sns.despine(bottom=True, left=True)
 
 sns.stripplot(x="prolongued_decelerations", y="light_decelerations", hue="fetal_health",
               data=df, dodge=True)
-ax.set_title('Desacelerações leves vs prolongadas'')
+ax.set_title('Desacelerações leves vs prolongadas')
 plt.show()
 
 sns.set(font_scale=1.0)
