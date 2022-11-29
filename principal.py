@@ -3,7 +3,7 @@ import streamlit as st #importando o streamlit
 
 st.title('Classificação Saúde Fetal')
 
-dados = pd.read_csv('fetal_heaelth.csv',sep=';')
+dados = pd.read_csv('fetal_health.csv',sep=';')
 dados = dados.drop(columns=['id'])#apaga a coluna id
 dados.head()
 nomes_colunas = dados.columns.to_list()#coloca os nomes das colunas em uma lista
