@@ -11,7 +11,7 @@ pd.set_option('display.max_columns', 500)
 import warnings
 warnings.filterwarnings('ignore')
 
-df = pd.read_csv("/fetal_health.csv")
+df = pd.read_csv('fetal_health.csv')
 
 df.head()
 
