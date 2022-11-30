@@ -5,7 +5,7 @@ st.title('Classificador de Saúde Fetal')
 
 
 dados = pd.read_csv('fetal_health.csv',sep=',')
-dados = dados.drop(columns=['id']
+
 dados.head()
 nomes_colunas = dados.columns.to_list()#coloca os nomes das colunas em uma lista
 nomes_colunas = nomes_colunas[:len(nomes_colunas)-1]#retiro o 'stroke'
