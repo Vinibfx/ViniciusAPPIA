@@ -40,7 +40,7 @@ f7 = st.number_input('Digite Número de DPs por segundo',min_value=0.0,max_value
 f8 = st.number_input('Digite Porcentagem de tempo com variabilidade anormal de curto prazo',min_value=12,max_value=87)
 f9 = st.number_input('Digite Valor médio da variabilidade de curto prazo',min_value=0.20, max_value=7.0)
 f10 = st.number_input('Digite Porcentagem de tempo com variabilidade anormal de longo prazo',min_value=0, max_value=91)
-f11 = st.number_input('Digite Valor médio da variabilidade de longo prazo',min_value=50,max_value=159)
+f11 = st.number_input('Digite Valor médio da variabilidade de longo prazo',min_value=0.0,max_value=50.7)
 f12 = st.number_input('Digite Valor mínimo do histograma',min_value=50,max_value=159)
 f13 = st.number_input('Digite Valor máximo do histograma',min_value=152,max_value=238)
 f14 = st.number_input('Digite Número de picos no histograma do exame',min_value=0,max_value=18)
