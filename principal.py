@@ -4,7 +4,7 @@ import streamlit as st #importando o streamlit
 st.title('Classificador de Saúde Fetal')
 
 
-dados = pd.read_csv('/content/fetal_health.csv',sep=',')
+dados = pd.read_csv('fetal_health.csv',sep=',')
 dados.info()
 
 dados.head()
