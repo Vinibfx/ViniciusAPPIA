@@ -56,4 +56,4 @@ if st.button('O sujeito tera AVC?'):
   if resposta == 0:
     st.write('Qual classificação é a do seu FETO??')
   else:
-    st.write('classificação é a do seu FETO?')
+    st.write('classificação é a do seu FETO')
