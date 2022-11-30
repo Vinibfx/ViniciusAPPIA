@@ -43,12 +43,12 @@ f10 = st.number_input('Digite Porcentagem de tempo com variabilidade anormal de 
 f11 = st.number_input('Digite Valor médio da variabilidade de longo prazo',min_value=50,max_value=159)
 f12 = st.number_input('Digite Valor mínimo do histograma',min_value=50,max_value=159)
 f13 = st.number_input('Digite Valor máximo do histograma',min_value=152,max_value=238)
-f14 = st.number_input('Digite Número de picos no histograma do exame',min_value=0.0,max_value=18)
-f15 = st.number_input('Digite Número de zeros no histograma do exame',min_value=0.0,max_value=10)
+f14 = st.number_input('Digite Número de picos no histograma do exame',min_value=0,max_value=18)
+f15 = st.number_input('Digite Número de zeros no histograma do exame',min_value=0,max_value=10)
 f16 = st.number_input('Digite modo hist',min_value=60,max_value=187)
 f17 = st.number_input('Digite Hist significa',min_value=73,max_value=187)
 f18 = st.number_input('Digite Hist mediana',min_value=77,max_value=186)
-f19 = st.number_input('Digite variância histórica',min_value=0.0,max_value=269)
+f19 = st.number_input('Digite variância histórica',min_value=0,max_value=269)
 f20 = st.number_input('Digite tendência do histogramao',min_value=-1,max_value=1)
 
 if st.button('Qual a classificação do seu feto?'):
