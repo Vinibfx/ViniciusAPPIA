@@ -1,4 +1,5 @@
 import pandas as pd
+import streamlit as st
 
 dados = pd.read_csv('/content/fetal_health.csv',sep=',')
 dados.info()
