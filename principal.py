@@ -50,10 +50,13 @@ f17 = st.number_input('Digite Hist significa',min_value=73,max_valeu=187)
 f18 = st.number_input('Digite Hist mediana',min_value=77,max_valeu=186)
 f19 = st.number_input('Digite variância histórica',min_value=0,max_valeu=269)
 f20 = st.number_input('Digite tendência do histogramao',min_value=-1,max_valeu=1)
-f21 = st.number_input('Digite Saúde fetal',1-Normal ,2-Suspeito ,3-Patológico)
 
 if st.button('Qual a classificação do seu feto?'):
-  resposta = floresta.predict([[f1,f2,f3,f4,f5,f6,f7,f8,f9,f10,f11,f12,f13,f14,f15,f16,f17,f18,f19,f20,f21]])#fara a predicao
+  resposta = floresta.predict([[f1,f2,f3,f4,f5,f6,f7,f8,f9,f10,f11,f12,f13,f14,f15,f16,f17,f18,f19,f20]])#fara a predicao
   if resposta == 1:
-    st.write('classificação da saúde do seu Feto')
+    st.write('Normal')
+ if resposta == 2:
+    st.write('Suspeito')
+ if resposta == 3:
+    st.write('Patológico')
  
