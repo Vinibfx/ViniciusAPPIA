@@ -38,7 +38,7 @@ f5 = st.number_input('Digite Número de LDs por segundo',min_value=0.0,max_value
 f6 = st.number_input('Digite Número de SDs por segundo',min_value=0.0,max_value=0.001)
 f7 = st.number_input('Digite Número de DPs por segundo',min_value=0.0,max_value=0.005)
 f8 = st.number_input('Digite Porcentagem de tempo com variabilidade anormal de curto prazo',min_value=12,max_value=87)
-f9 = st.number_input('Digite Valor médio da variabilidade de curto prazo',min_value=0.20, max_value=7)
+f9 = st.number_input('Digite Valor médio da variabilidade de curto prazo',min_value=0.20, max_value=7.00)
 f10 = st.number_input('Digite Porcentagem de tempo com variabilidade anormal de longo prazo',min_value=0, max_value=91)
 f11 = st.number_input('Digite Valor médio da variabilidade de longo prazo',min_value=50,max_valeu=159)
 f12 = st.number_input('Digite Valor mínimo do histograma',min_value=50,max_valeu=159)
