@@ -21,7 +21,7 @@ features_treino,features_teste,classes_treino,classes_teste = train_test_split(f
 
 from sklearn.ensemble import RandomForestClassifier #importa o codigo para gerar florestas randomicas
 #criando a floresta
-floresta = RandomForestClassifier(n_estimators=1000) #constroi a floresta
+floresta = RandomForestClassifier(n_estimators=2126) #constroi a floresta
 #treinar a floresta
 floresta.fit(features_treino,classes_treino)
 
