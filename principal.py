@@ -7,7 +7,7 @@ st.title('Classificador de Saúde Fetal')
 dados = pd.read_csv('fetal_health.csv',sep=',')
 dados.head()
 nomes_colunas = dados.columns.to_list()#coloca os nomes das colunas em uma lista
-nomes_colunas = nomes_colunas[:len(nomes_colunas)-1]#retiro o 'stroke'
+nomes_colunas = nomes_colunas[:len(nomes_colunas)-2]#retiro o 'stroke'
 #separando as features das classes
 features = dados[nomes_colunas]
 classes = dados['fetal_health']
