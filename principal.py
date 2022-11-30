@@ -31,7 +31,7 @@ predicoes = floresta.predict(features_teste)
 st.write('Classificação Iniciada')
 
 f1 = st.number_input('Digite Frequência cardíaca fetal basal (FCF)',min_value=106,max_value=160)
-f2 = st.number_input('Digite Número de acelerações por segundo',min_value=0.019,max_value=0)
+f2 = st.number_input('Digite Número de acelerações por segundo',min_value=0)
 f3 = st.number_input('Digite Número de movimentos fetais por segundo',min_value=0,max_value=0.48)
 f4 = st.number_input('Digite Número de Contrações uterinas por segundo',min_value=0,max_value=0.15)
 f5 = st.number_input('Digite Número de LDs por segundo',min_value=0,max_value=0.15)
