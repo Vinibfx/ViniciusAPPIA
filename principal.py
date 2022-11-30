@@ -31,7 +31,7 @@ predicoes = floresta.predict(features_teste)
 st.write('Classificação Iniciada')
 
 f1 = st.number_input('Digite Frequência cardíaca fetal basal (FCF)',min_value=106,max_value=160)
-f2 = st.number_input('Digite Número de acelerações por segundo',min_value=0,max_value=0.019)
+#f2 = st.number_input('Digite Número de acelerações por segundo',min_value=0,max_value=0.019)
 f3 = st.number_input('Digite Número de movimentos fetais por segundo',min_value=0,max_value=0.48)
 f4 = st.number_input('Digite Número de Contrações uterinas por segundo',min_value=0,max_value=0.15)
 f5 = st.number_input('Digite Número de LDs por segundo',min_value=0,max_value=0.15)
@@ -53,7 +53,7 @@ f20 = st.number_input('Digite tendência do histogramao',min_value=-1,max_valeu=
 f21 = st.number_input('Digite Saúde fetal',1-Normal ,2-Suspeito ,3-Patológico)
 
 if st.button('Qual a classificação do seu feto?'):
-  resposta = floresta.predict([[f1,f2,f3,f4,f5,f6,f7,f8,f9,f10,f11,f12,f13,f14,f15,f16,f17,f18,f19,f20,f21]])#fara a predicao
+  resposta = floresta.predict([[f1,f2,f3,f5,f6,f7,f8,f9,f10,f11,f12,f13,f14,f15,f16,f17,f18,f19,f20,f21]])#fara a predicao
   if resposta == 1:
     st.write('classificação da saúde do seu Feto')
  
