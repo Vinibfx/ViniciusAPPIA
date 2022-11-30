@@ -48,7 +48,7 @@ f15 = st.number_input('Digite Número de zeros no histograma do exame',min_value
 f16 = st.number_input('Digite modo hist',min_value=60,max_valeu=187)
 f17 = st.number_input('Digite Hist significa',min_value=73,max_valeu=187)
 f18 = st.number_input('Digite Hist mediana',min_value=77,max_valeu=186)
-f19 = st.number_input('Digite variância histórica',min_value=0,max_valeu=269)
+f19 = st.number_input('Digite variância histórica',min_value=0.0,max_valeu=269)
 f20 = st.number_input('Digite tendência do histogramao',min_value=-1,max_valeu=1)
 
 if st.button('Qual a classificação do seu feto?'):
