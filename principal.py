@@ -1,5 +1,8 @@
 import pandas as pd
-import streamlit as st
+import streamlit as st #importando o streamlit
+
+st.title('Classificador de Saúde Fetal')
+
 
 dados = pd.read_csv('/content/fetal_health.csv',sep=',')
 dados.info()
