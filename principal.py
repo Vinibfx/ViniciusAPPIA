@@ -70,6 +70,6 @@ if st.button('Qual a classificação do seu feto?'):
 
 
 with col3:
-    st.write(' ')
+    st.write(' ')
 
 
