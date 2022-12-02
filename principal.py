@@ -66,10 +66,7 @@ if st.button('Qual a classificação do seu feto?'):
     st.write('Suspeito')
   if resposta == 3:
     st.write('Patológico')
- 
-
-
-with col3:
+  with col3:
     st.write(' ')
 
 
