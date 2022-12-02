@@ -2,6 +2,7 @@ import pandas as pd
 import streamlit as st #importando o streamlit
 
 st.title('Classificador de Saúde Fetal')
+st.image('')
 
 
 dados = pd.read_csv('fetal_health.csv',sep=',')
