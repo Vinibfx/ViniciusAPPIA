@@ -3,6 +3,7 @@ import streamlit as st #importando o streamlit
 
 st.title('Classificador de Saúde Fetal')
 st.image('IMGFET.png')
+st.center('IMGFET.png')
 
 
 
