@@ -2,7 +2,12 @@ import pandas as pd
 import streamlit as st #importando o streamlit
 
 st.title('Classificador de Saúde Fetal')
-st.image('IMGFET.png')
+
+from PIL import Image
+image = image.open('IMGFET.png')
+
+st.image(image)
+
 
 dados = pd.read_csv('fetal_health.csv',sep=',')
 dados.head()
